@@ -409,11 +409,17 @@ ul {
 .usario::before {
   content: "";
   display: inline-block;
-  border: 1px solid black;
   height: 1em;
   width: 1em;
-  background-image: url(../img/icon/facebook.svg);
+  background: url(../img/icon/facebook.svg);
   background-size: cover;
+}
+
+.pageViewsFB {
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #f2f5fa;
 }
 
 /* @HEADERS */

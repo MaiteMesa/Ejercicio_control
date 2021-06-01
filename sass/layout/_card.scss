@@ -1,0 +1,34 @@
+/* @CARD */
+/* ********** */
+
+//Card 01
+
+.cardFacebook{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #f2f5fa;
+}
+.cardFacebook::before{
+    content:"";
+    display: block;
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    background:#5396D6;
+}
+
+.usuario{
+    font-size: 2rem;
+
+}
+
+.usario::before{
+    content: "";
+    display: inline-block;
+    border: 1px solid black;
+    height: 1em;
+    width: 1em; 
+    background-image: url(../img/icon/facebook.svg);
+    background-size: cover;
+}
